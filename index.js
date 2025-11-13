@@ -1,5 +1,5 @@
 const UPLOAD_URL = process.env.UPLOAD_URL || '';      // 节点或订阅自动上传地址,需填写部署Merge-sub项目后的首页地址,例如：https://merge.ct8.pl
-const PROJECT_URL = process.env.PROJECT_URL || 'https://812b490f-5743-4fb2-9a78-a5d9d76e20e0.e1-eu-north-azure.choreoapps.dev';    // 需要上传订阅或保活时需填写项目分配的url,例如：https://google.com   
+const PROJECT_URL = process.env.PROJECT_URL || 'https://87cde5c7-4918-4274-acf9-7ac62082e5f1.e1-eu-north-azure.choreoapps.dev/';    // 需要上传订阅或保活时需填写项目分配的url,例如：https://google.com   
 const AUTO_ACCESS = process.env.AUTO_ACCESS || true; // false关闭自动保活，true开启,需同时填写PROJECT_URL变量
 const FILE_PATH = process.env.FILE_PATH || './tmp';   // 运行目录,sub节点文件保存目录
 const SUB_PATH = process.env.SUB_PATH || 'sub';       // 订阅路径
